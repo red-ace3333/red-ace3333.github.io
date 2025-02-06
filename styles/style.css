@@ -1,0 +1,57 @@
+.my-class {
+  color: gold;
+  width: 500px;
+  border: 1px solid black;
+}
+
+#my-id {
+  color: green;
+  width: 500px;
+  border: 1px solid black;
+}
+
+a:hover {
+  color: white;
+  width: 5px;
+  border: 1px solid black;
+  padding: 1px;
+}
+
+html {
+  font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+  font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+  background-color: #00539f;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2; /*设置行高*/
+  letter-spacing: 1px; /*设置字间距*/
+}
+
+body {
+  width: 600px; /* 强制文档体永远保持 600 像素宽。 */
+  margin: 0 auto; /* 当你在 margin 或 padding 这样的属性上设置两个值时，第一个值影响元素的上下方向（在这个例子中设置为 0）；第二个值影响左右方向。（这里，auto 是一个特殊的值，它将可用的水平空间平均分配给左边和右边）。如 margin 语法中所记载的那样，你也可以使用一个、两个、三个或四个值。 */
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+
+#image1 {
+  display: block;
+  margin: 0 auto;
+}
+#image3 {
+  display: block;
+  margin: 0 auto;
+}
